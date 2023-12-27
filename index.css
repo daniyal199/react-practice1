@@ -1,0 +1,30 @@
+/* Write your code here. */
+.element {
+  font-family: 'Roboto';
+  font-size: xx-large;
+}
+.container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+.logo {
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+  .logo {
+    width: 300px;
+    height: 300px;
+  }
+}
